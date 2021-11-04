@@ -1,16 +1,14 @@
 👾 React Native Template source code repo
 
-
 Build Status Documentation Maintenance License: MIT
 
 Clean and minimalist React Native template for a quick start with TypeScript.
 
 ⭐ Features Elegant usage directly within the React Native CLI Consistent with the default React Native template Minimal additional dependencies
 
- ⭐🍕Usage🍕⭐
- 
-  npx react-native init SomeApp --template https://github.com/abduliOS/RC_RN_Template.git
+⭐🍕Usage🍕⭐
 
+npx react-native init SomeApp --template https://github.com/danishkiani94/RC-RN-TEMPLATE.git
 
 ⚠️ React Native CLI This template only works with the new CLI. Make sure you have uninstalled the legacy react-native-cli first (npm uninstall -g react-native-cli) for the below command to work. If you wish to not use npx, you can also install the new CLI globally (npm i -g @react-native-community/cli or yarn global add @react-native-community/cli).
 
