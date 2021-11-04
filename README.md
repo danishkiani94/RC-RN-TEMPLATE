@@ -1,7 +1,5 @@
 👾 React Native Template source code repo
 
-Build Status Documentation Maintenance License: MIT
-
 Clean and minimalist React Native template for a quick start with TypeScript.
 
 ⭐ Features Elegant usage directly within the React Native CLI Consistent with the default React Native template Minimal additional dependencies
@@ -36,4 +34,4 @@ yarn clean:android -> clean android build
 
 yarn cache-clean -> clean the project cache
 
-🔖 License Under Royal Cyber India Development# TestTemplateRepo
+🔖 License Under Royal Cyber Development# TestTemplateRepo
