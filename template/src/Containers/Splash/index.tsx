@@ -3,7 +3,7 @@ import { Image, View, Text } from 'react-native'
 import Styles from './style'
 import { useDispatch, useSelector } from 'react-redux'
 import { RootState } from '../../Reducers/index'
-import { CropListActions } from '../../Reducers/CropListReducer/index'
+import { ToDosAction } from '../../Reducers/ToDosReducer/index'
 import { ListResponse } from '../../DataModels/ListResponse'
 /**
  * The properties passed to the component
@@ -41,19 +41,14 @@ const SplashScreen = ({
    */
   Props: IStateProps & IDispatchProps & IOwnProps
 }) => {
-  const [temprature, setTemprature] = React.useState('C')
   /**
    *  useDispatch() is used for dispatching actions to the store.
    */
   const dispatch = useDispatch()
 
   const getData = () => {
-    dispatch(CropListActions.request())
+    dispatch(ToDosAction.request())
   }
-
-  const tempForecast = useSelector(
-    (state: RootState) => state.cropList.data?.data,
-  )
 
   /**
    * useEffect can accept getData() ,

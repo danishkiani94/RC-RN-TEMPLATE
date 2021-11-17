@@ -11,7 +11,7 @@ const actionCreators = {
   failure: createStandardAction('LIST_FAILURE')<ErrorFormat>(),
 }
 
-export const CropListActions = actionCreators
+export const ToDosAction = actionCreators
 
 export interface CropListResultState {
   error?: ErrorFormat | undefined
@@ -57,6 +57,6 @@ const reducerMap = {
   [getType(actionCreators.failure)]: failure,
 }
 
-export const CropListReducer = createReducer(INITIAL_STATE, reducerMap)
+export const ToDosReducer = createReducer(INITIAL_STATE, reducerMap)
 
-export default CropListReducer
+export default ToDosReducer

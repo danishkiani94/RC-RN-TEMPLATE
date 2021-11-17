@@ -4,7 +4,7 @@ import { from, Observable } from 'rxjs'
 import { WcsSecureApi } from './SecureApi'
 
 export interface WcsApi {
-  CropListApi: () => Observable<ApiResponse<any>>
+  ToDos: () => Observable<ApiResponse<any>>
 }
 
 export interface IDependencies {
@@ -14,7 +14,7 @@ export interface IDependencies {
 
 // our "constructor"
 export const createAPI = (
-  baseURL = `${'https://us-central1-velvety-accord-305122.cloudfunctions.net/flyPollination/'}`,
+  baseURL = `${'https://jsonplaceholder.typicode.com/'}`,
 ): WcsApi => {
   // ------
   // STEP 1
@@ -47,8 +47,7 @@ export const createAPI = (
   // way at this level.
   //
 
-  const CropListApi = () =>
-    from(api.get('farms/Farfield Farms')) as Observable<ApiResponse<any>>
+  const ToDos = () => from(api.get('todos/1')) as Observable<ApiResponse<any>>
 
   // ------
   // STEP 3
@@ -64,7 +63,7 @@ export const createAPI = (
   //
   return {
     // a list of the API functions from step 2
-    CropListApi,
+    ToDos,
   }
 }
 

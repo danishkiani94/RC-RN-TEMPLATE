@@ -1,21 +1,21 @@
 import { Epic, ofType } from 'redux-observable'
 import { getType } from 'typesafe-actions'
 import { IDependencies } from '../../Services/Api'
-import { CropListActions } from '../../Reducers/CropListReducer'
+import { ToDosAction } from '../../Reducers/ToDosReducer'
 import { map, mergeMap } from 'rxjs/operators'
 import { ApiResponse } from 'apisauce'
 import { AnyAction } from 'redux'
 
-export const cropListEpic: Epic = (action$, state$, { api }: IDependencies) =>
+export const todosEpic: Epic = (action$, state$, { api }: IDependencies) =>
   action$.pipe(
-    ofType(getType(CropListActions.request)),
+    ofType(getType(ToDosAction.request)),
     mergeMap((action: AnyAction) => {
-      return api.CropListApi().pipe(
+      return api.ToDos().pipe(
         map((response: ApiResponse<any>) => {
           if (response.ok) {
-            return CropListActions.success(response.data)
+            return ToDosAction.success(response.data)
           } else {
-            return CropListActions.failure({ action, response })
+            return ToDosAction.failure({ action, response })
           }
         }),
       )

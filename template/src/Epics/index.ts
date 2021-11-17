@@ -1,4 +1,4 @@
 import { combineEpics } from 'redux-observable'
-import { cropListEpic } from './CropListEpic/index'
+import { todosEpic } from './ToDosEpic/index'
 
-export default combineEpics(cropListEpic)
+export default combineEpics(todosEpic)
