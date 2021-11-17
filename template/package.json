@@ -15,7 +15,6 @@
     "cache-clean": "node bin/clean.js"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.15.7",
     "@react-native-community/async-storage": "^1.12.1",
     "@react-native-community/netinfo": "^6.0.4",
     "@react-native-firebase/app": "^12.9.3",
@@ -45,12 +44,12 @@
     "react-native-styles-shorthand": "^1.0.0",
     "react-native-svg": "^12.1.1",
     "react-native-vector-icons": "^8.1.0",
+    "react-navigation": "^3.11.0",
+    "react-navigation-animated-switch": "^0.6.4",
     "react-redux": "^7.2.5",
     "reactotron-react-native": "^5.0.0",
     "redux": "^4.1.1",
     "redux-flipper": "^2.0.0",
-    "react-navigation": "^3.11.0",
-    "react-navigation-animated-switch": "^0.6.4",
     "redux-logger": "^3.0.6",
     "redux-observable": "^2.0.0",
     "redux-persist": "^6.0.0",

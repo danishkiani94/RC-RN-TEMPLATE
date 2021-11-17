@@ -124,6 +124,7 @@ android {
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
+    flavorDimensions "default"
 
     defaultConfig {
         applicationId "com.rctemplate"
@@ -148,10 +149,31 @@ android {
             keyPassword 'android'
         }
     }
+    flavorDimensions "default"
+    productFlavors {
+        SIT {
+            dimension 'default'
+            applicationIdSuffix ".sit"
+
+        }
+        UAT {
+            dimension 'default'
+            applicationIdSuffix ".uat"
+        }
+        PROD {
+            dimension 'default'
+            applicationIdSuffix ".prod"
+        }
+        DEV {
+            dimension 'default'
+            applicationIdSuffix ".dev"
+        }
+    }
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
         }
+
         release {
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
