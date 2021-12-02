@@ -18,6 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* RCTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RCTemplateTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		833F2006FE004CFBA319C9F2 /* libPods-RCTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE8F60935CC7F1EA8FB7E0E /* libPods-RCTemplate.a */; };
+		B3FC22DD27481E7A00D71547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3FC22DC27481E7A00D71547 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		3E177A0AC98B628A88DCDB53 /* Pods-RCTemplate-RCTemplateTests.uatrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.uatrelease.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.uatrelease.xcconfig"; sourceTree = "<group>"; };
 		4CE4A39C341CB8F5C5250C05 /* Pods-RCTemplate-RCTemplateTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.debugdev.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.debugdev.xcconfig"; sourceTree = "<group>"; };
 		6508C55D08FC26C690B6F75D /* Pods-RCTemplate-RCTemplateTests.uatdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.uatdebug.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.uatdebug.xcconfig"; sourceTree = "<group>"; };
+		6BF0842E1399D2A39554F266 /* Pods-RCTemplate-RCTemplateTests.devdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.devdebug.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.devdebug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RCTemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85F5676315DCFC43E150B6FD /* Pods-RCTemplate.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate.uat.xcconfig"; path = "Target Support Files/Pods-RCTemplate/Pods-RCTemplate.uat.xcconfig"; sourceTree = "<group>"; };
 		8714E9B4D78AFFA0A5684D35 /* Pods-RCTemplate-RCTemplateTests.proddebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.proddebug.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.proddebug.xcconfig"; sourceTree = "<group>"; };
@@ -70,9 +72,11 @@
 		9E33F814E1020536E0468ED0 /* Pods-RCTemplate-RCTemplateTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.releasedev.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.releasedev.xcconfig"; sourceTree = "<group>"; };
 		A55CB808E5D8A5BFCA4FFF92 /* Pods-RCTemplate.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate.debugdev.xcconfig"; path = "Target Support Files/Pods-RCTemplate/Pods-RCTemplate.debugdev.xcconfig"; sourceTree = "<group>"; };
 		A8A496B83138A0046DC1D49A /* Pods-RCTemplate-RCTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3FC22DC27481E7A00D71547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B5F81E3AADB3E44F0AC1B7A0 /* Pods-RCTemplate.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate.debugstaging.xcconfig"; path = "Target Support Files/Pods-RCTemplate/Pods-RCTemplate.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		B80917A4DA0228A5B2CC2B59 /* Pods-RCTemplate.sitdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate.sitdebug.xcconfig"; path = "Target Support Files/Pods-RCTemplate/Pods-RCTemplate.sitdebug.xcconfig"; sourceTree = "<group>"; };
 		B82E8B0DD12C98D21C450681 /* Pods-RCTemplate.proddebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate.proddebug.xcconfig"; path = "Target Support Files/Pods-RCTemplate/Pods-RCTemplate.proddebug.xcconfig"; sourceTree = "<group>"; };
+		BC4CA99AEBA4C4EA84145F75 /* Pods-RCTemplate-RCTemplateTests.devrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.devrelease.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.devrelease.xcconfig"; sourceTree = "<group>"; };
 		D33D9CBFA66128F796A012E2 /* Pods-RCTemplate-RCTemplateTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.debugstaging.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		D49FBA419485963F13264937 /* Pods-RCTemplate-RCTemplateTests.sitrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.sitrelease.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.sitrelease.xcconfig"; sourceTree = "<group>"; };
 		D846516C353455E8470B51D7 /* Pods-RCTemplate-RCTemplateTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.releasestaging.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 		E8DE8230D587AA2B41E5F92D /* Pods-RCTemplate-RCTemplateTests.prodrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.prodrelease.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.prodrelease.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EE5D4B73C44873F130D7F104 /* Pods-RCTemplate.devrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate.devrelease.xcconfig"; path = "Target Support Files/Pods-RCTemplate/Pods-RCTemplate.devrelease.xcconfig"; sourceTree = "<group>"; };
+		FAC316049A274CC0E72BBFB3 /* Pods-RCTemplate.devdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate.devdebug.xcconfig"; path = "Target Support Files/Pods-RCTemplate/Pods-RCTemplate.devdebug.xcconfig"; sourceTree = "<group>"; };
 		FF3632C2F66648A5E9A2CDD4 /* Pods-RCTemplate-RCTemplateTests.sitdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTemplate-RCTemplateTests.sitdebug.xcconfig"; path = "Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests.sitdebug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +143,7 @@
 		13B07FAE1A68108700A75B9A /* RCTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				B3FC22DC27481E7A00D71547 /* GoogleService-Info.plist */,
 				2CB36AC7270F592E00238C61 /* Fonts */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -178,6 +185,10 @@
 				E8DE8230D587AA2B41E5F92D /* Pods-RCTemplate-RCTemplateTests.prodrelease.xcconfig */,
 				D49FBA419485963F13264937 /* Pods-RCTemplate-RCTemplateTests.sitrelease.xcconfig */,
 				3E177A0AC98B628A88DCDB53 /* Pods-RCTemplate-RCTemplateTests.uatrelease.xcconfig */,
+				FAC316049A274CC0E72BBFB3 /* Pods-RCTemplate.devdebug.xcconfig */,
+				EE5D4B73C44873F130D7F104 /* Pods-RCTemplate.devrelease.xcconfig */,
+				6BF0842E1399D2A39554F266 /* Pods-RCTemplate-RCTemplateTests.devdebug.xcconfig */,
+				BC4CA99AEBA4C4EA84145F75 /* Pods-RCTemplate-RCTemplateTests.devrelease.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -270,6 +281,7 @@
 				4154A44C19B9C3D1A50BAB06 /* [CP] Copy Pods Resources */,
 				05F85629541516737FF642BC /* [CP] Embed Pods Frameworks */,
 				0DBB287BBCD49A267EA16A71 /* [CP-User] [RNFB] Core Configuration */,
+				8757FD843ADEB28CA86E5C56 /* [CP-User] [RNFB] Crashlytics Configuration */,
 			);
 			buildRules = (
 			);
@@ -378,6 +390,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B3FC22DD27481E7A00D71547 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,13 +433,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RCTemplate/Pods-RCTemplate-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -539,18 +552,32 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTemplate-RCTemplateTests/Pods-RCTemplate-RCTemplateTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8757FD843ADEB28CA86E5C56 /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
 		};
 		AD5C4E7E5F3A47C5E4DBBCF0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -773,7 +800,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).DebugProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -795,7 +822,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).ReleaseProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1086,7 +1113,7 @@
 		};
 		B3C7BA022744EC9F00189E30 /* DEVDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10ACE8560183868AA4F826E4 /* Pods-RCTemplate.debug.xcconfig */;
+			baseConfigurationReference = FAC316049A274CC0E72BBFB3 /* Pods-RCTemplate.devdebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1099,7 +1126,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).DebugProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1109,7 +1136,7 @@
 		};
 		B3C7BA032744EC9F00189E30 /* DEVDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F9E780CE724C60CB827C553 /* Pods-RCTemplate-RCTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 6BF0842E1399D2A39554F266 /* Pods-RCTemplate-RCTemplateTests.devdebug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1246,7 +1273,7 @@
 		};
 		B3C7BA072744ECA700189E30 /* SITDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10ACE8560183868AA4F826E4 /* Pods-RCTemplate.debug.xcconfig */;
+			baseConfigurationReference = B80917A4DA0228A5B2CC2B59 /* Pods-RCTemplate.sitdebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1259,7 +1286,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).DebugProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1269,7 +1296,7 @@
 		};
 		B3C7BA082744ECA700189E30 /* SITDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F9E780CE724C60CB827C553 /* Pods-RCTemplate-RCTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = FF3632C2F66648A5E9A2CDD4 /* Pods-RCTemplate-RCTemplateTests.sitdebug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1406,7 +1433,7 @@
 		};
 		B3C7BA0C2744ECAD00189E30 /* UATDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10ACE8560183868AA4F826E4 /* Pods-RCTemplate.debug.xcconfig */;
+			baseConfigurationReference = 07817FEBC0DED8645424885D /* Pods-RCTemplate.uatdebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1419,7 +1446,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).DebugProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1429,7 +1456,7 @@
 		};
 		B3C7BA0D2744ECAD00189E30 /* UATDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F9E780CE724C60CB827C553 /* Pods-RCTemplate-RCTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 6508C55D08FC26C690B6F75D /* Pods-RCTemplate-RCTemplateTests.uatdebug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1566,7 +1593,7 @@
 		};
 		B3C7BA112744ECB700189E30 /* PRODDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10ACE8560183868AA4F826E4 /* Pods-RCTemplate.debug.xcconfig */;
+			baseConfigurationReference = B82E8B0DD12C98D21C450681 /* Pods-RCTemplate.proddebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1579,7 +1606,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).DebugProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1589,7 +1616,7 @@
 		};
 		B3C7BA122744ECB700189E30 /* PRODDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F9E780CE724C60CB827C553 /* Pods-RCTemplate-RCTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 8714E9B4D78AFFA0A5684D35 /* Pods-RCTemplate-RCTemplateTests.proddebug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1719,7 +1746,7 @@
 		};
 		B3C7BA162744ECC300189E30 /* DEVRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 968A20F8BD0245E30FBD22A5 /* Pods-RCTemplate.release.xcconfig */;
+			baseConfigurationReference = EE5D4B73C44873F130D7F104 /* Pods-RCTemplate.devrelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1731,7 +1758,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).ReleaseProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1740,7 +1767,7 @@
 		};
 		B3C7BA172744ECC300189E30 /* DEVRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8A496B83138A0046DC1D49A /* Pods-RCTemplate-RCTemplateTests.release.xcconfig */;
+			baseConfigurationReference = BC4CA99AEBA4C4EA84145F75 /* Pods-RCTemplate-RCTemplateTests.devrelease.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1867,7 +1894,7 @@
 		};
 		B3C7BA1B2744ECCA00189E30 /* PRODRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 968A20F8BD0245E30FBD22A5 /* Pods-RCTemplate.release.xcconfig */;
+			baseConfigurationReference = 94A273130810B51D7BA45A96 /* Pods-RCTemplate.prodrelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1879,7 +1906,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).ReleaseProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1888,7 +1915,7 @@
 		};
 		B3C7BA1C2744ECCA00189E30 /* PRODRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8A496B83138A0046DC1D49A /* Pods-RCTemplate-RCTemplateTests.release.xcconfig */;
+			baseConfigurationReference = E8DE8230D587AA2B41E5F92D /* Pods-RCTemplate-RCTemplateTests.prodrelease.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -2015,7 +2042,7 @@
 		};
 		B3C7BA202744ECD100189E30 /* UATRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 968A20F8BD0245E30FBD22A5 /* Pods-RCTemplate.release.xcconfig */;
+			baseConfigurationReference = DE22A3604390A02FA3CFBEB2 /* Pods-RCTemplate.uatrelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2027,7 +2054,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).ReleaseProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2036,7 +2063,7 @@
 		};
 		B3C7BA212744ECD100189E30 /* UATRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8A496B83138A0046DC1D49A /* Pods-RCTemplate-RCTemplateTests.release.xcconfig */;
+			baseConfigurationReference = 3E177A0AC98B628A88DCDB53 /* Pods-RCTemplate-RCTemplateTests.uatrelease.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -2163,7 +2190,7 @@
 		};
 		B3C7BA252744ECDB00189E30 /* SITRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 968A20F8BD0245E30FBD22A5 /* Pods-RCTemplate.release.xcconfig */;
+			baseConfigurationReference = 93ED29CD46FD855D11BD8507 /* Pods-RCTemplate.sitrelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2175,7 +2202,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier).ReleaseProd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.template;
 				PRODUCT_NAME = RCTemplate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2184,7 +2211,7 @@
 		};
 		B3C7BA262744ECDB00189E30 /* SITRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8A496B83138A0046DC1D49A /* Pods-RCTemplate-RCTemplateTests.release.xcconfig */;
+			baseConfigurationReference = D49FBA419485963F13264937 /* Pods-RCTemplate-RCTemplateTests.sitrelease.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
