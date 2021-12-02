@@ -1,19 +1,36 @@
+import * as React from 'react'
+import { View, Text } from 'react-native'
+
 import { createAppContainer, createStackNavigator } from 'react-navigation'
 import createAnimatedSwitchNavigator from 'react-navigation-animated-switch'
-import Splash from '../Containers/Splash'
+import Feed from '../Containers/Feed'
+import { createDrawerNavigator } from '@react-navigation/drawer'
 
-const AppStack = createStackNavigator(
-  {
-    splash: Splash,
-  },
-  { headerMode: 'none', initialRouteName: 'splash' },
-)
+import { NavigationContainer } from '@react-navigation/native'
 
-// Manifest of possible screens
-const app = createAnimatedSwitchNavigator({
-  All: AppStack,
-})
+function Article() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Article Screen</Text>
+    </View>
+  )
+}
 
-const PrimaryNav = createAppContainer(app)
+const Drawer = createDrawerNavigator()
 
-export default PrimaryNav
+function MyDrawer() {
+  return (
+    <Drawer.Navigator>
+      <Drawer.Screen name="Feed" component={Feed} />
+      <Drawer.Screen name="Article" component={Article} />
+    </Drawer.Navigator>
+  )
+}
+
+export default function PrimaryNav() {
+  return (
+    <NavigationContainer>
+      <MyDrawer />
+    </NavigationContainer>
+  )
+}

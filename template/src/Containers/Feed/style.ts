@@ -5,10 +5,9 @@ export default StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#E66208',
   },
   label: {
-    color: 'white',
+    color: 'black',
     fontSize: 20,
   },
 })

@@ -30,7 +30,7 @@ export interface IDispatchProps {
 /**
  *  This function provides functionality for HomeScreen
  */
-const SplashScreen = ({
+const FeedScreen = ({
   navigation,
   Props,
 }: {
@@ -64,4 +64,4 @@ const SplashScreen = ({
     </View>
   )
 }
-export default SplashScreen
+export default FeedScreen
