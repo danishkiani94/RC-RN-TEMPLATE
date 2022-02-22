@@ -35,3 +35,5 @@ yarn clean:android -> clean android build
 yarn cache-clean -> clean the project cache
 
 🔖 License Under Royal Cyber Development# TestTemplateRepo
+ 
+ Refrance : https://medium.com/cwi-software/how-to-setup-multiple-environments-for-react-native-786005a360fc 
